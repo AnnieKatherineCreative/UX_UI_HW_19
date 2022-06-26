@@ -188,6 +188,7 @@ nav > a {
   display: flex;
   align-items: end;
   height: 200px;
+  margin-bottom: 2em;
 }
 
 .footer-nav {
@@ -204,6 +205,11 @@ nav > a {
   margin-left: auto;
 }
 
+@media (max-width: 1250px) {
+  .intro-image-container {
+    display: none;
+  }
+}
 
 /* ==========================================================================
    Helper classes
