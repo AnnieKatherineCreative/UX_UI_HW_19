@@ -29,7 +29,6 @@ body {
 }
 
 .container {
-  width: 78%;
   padding: 1rem;
   font-family: Poppins, sans-serif;
 }
@@ -40,6 +39,19 @@ body {
     padding-top: 7rem;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-nav {
+    width: 100%;
   }
 }
 
@@ -168,6 +180,27 @@ nav > a {
   font-size: 1.25em;
   line-height: 1.75em;
   align-self: end;
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro-text {
+    width: 46%;
+    margin-left: 27%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .intro-text {
+    width: 75%;
+    margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .intro-text {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .margin-bottom-0 {
