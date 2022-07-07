@@ -256,6 +256,17 @@ nav > a {
   background-color: #e4e8ec;
 }
 
+@media only screen and (max-width: 1000px) {
+  .leaves {
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: 300px 1fr;
@@ -264,6 +275,18 @@ nav > a {
   align-items: center;
   grid-column-gap: 5rem;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 430px) {
+  .projects-grid {
+    margin-left: 0;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
+  }
+
+  .project-title {
+    margin-bottom: 5rem;
+  }
 }
 
 h2 {
