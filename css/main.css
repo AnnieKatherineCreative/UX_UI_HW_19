@@ -277,7 +277,7 @@ nav > a {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 650px) {
   .projects-grid {
     margin-left: 0;
     grid-template-columns: 1fr;
@@ -309,6 +309,13 @@ h2 {
   background-repeat: no-repeat;
   background-color: #f6f6f9;
 }
+
+@media only screen and (max-width: 1000px) {
+  .rose {
+    background: none;
+  }
+}
+
 
 .skills-flex {
   display: flex;
