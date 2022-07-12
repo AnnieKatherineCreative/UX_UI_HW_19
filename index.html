@@ -56,8 +56,17 @@
     <img class="social-icons" src="img/Icons.svg" alt="social icons">
     <span class="copyright">(c) Annie Katherine Creative 2022</span>
   </footer>
+  <div id="scroll-to-top" class="scroll-to-top">Return to top</div>
 </div>
 
+<script type="text/javascript"
+        src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+  $('#scroll-to-top').on("click", () => {
+    $('html, body').animate({scrollTop: 0}, 'slow');
+  });
+</script>
 </body>
 
 </html>

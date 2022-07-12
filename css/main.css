@@ -244,6 +244,12 @@ nav > a {
   margin-left: auto;
 }
 
+.scroll-to-top {
+  text-align: right;
+  width: 100%;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1000px) {
   .footer {
     width: 288px;
